@@ -1,1 +1,1 @@
-# AdsSocialManage
+# AdsSocialManager
