@@ -1,0 +1,15 @@
+/workspace/FbAIAssistant.Infrastructure/bin/Debug/net9.0/FbAIAssistant.Infrastructure.deps.json
+/workspace/FbAIAssistant.Infrastructure/bin/Debug/net9.0/FbAIAssistant.Infrastructure.runtimeconfig.json
+/workspace/FbAIAssistant.Infrastructure/bin/Debug/net9.0/FbAIAssistant.Infrastructure.dll
+/workspace/FbAIAssistant.Infrastructure/bin/Debug/net9.0/FbAIAssistant.Infrastructure.pdb
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.csproj.AssemblyReference.cache
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.AssemblyInfoInputs.cache
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.AssemblyInfo.cs
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.csproj.CoreCompileInputs.cache
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.sourcelink.json
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.dll
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/refint/FbAIAssistant.Infrastructure.dll
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.pdb
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/FbAIAssistant.Infrastructure.genruntimeconfig.cache
+/workspace/FbAIAssistant.Infrastructure/obj/Debug/net9.0/ref/FbAIAssistant.Infrastructure.dll

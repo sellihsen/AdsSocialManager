@@ -1,0 +1,12 @@
+/workspace/FbAIAssistant.Domain/bin/Debug/net9.0/FbAIAssistant.Domain.deps.json
+/workspace/FbAIAssistant.Domain/bin/Debug/net9.0/FbAIAssistant.Domain.dll
+/workspace/FbAIAssistant.Domain/bin/Debug/net9.0/FbAIAssistant.Domain.pdb
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.AssemblyInfoInputs.cache
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.AssemblyInfo.cs
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.csproj.CoreCompileInputs.cache
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.sourcelink.json
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.dll
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/refint/FbAIAssistant.Domain.dll
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/FbAIAssistant.Domain.pdb
+/workspace/FbAIAssistant.Domain/obj/Debug/net9.0/ref/FbAIAssistant.Domain.dll
