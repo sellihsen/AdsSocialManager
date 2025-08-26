@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6V8RZx/GsTk=",
+  "dgSpecHash": "2nmwVBSqEVE=",
   "success": true,
   "projectFilePath": "/workspace/FbAIAssistant.App/FbAIAssistant.App.csproj",
   "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.authentication.facebook/9.0.8/microsoft.aspnetcore.authentication.facebook.9.0.8.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/9.0.8/microsoft.aspnetcore.components.webassembly.server.9.0.8.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.8/microsoft.aspnetcore.cryptography.internal.9.0.8.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/9.0.8/microsoft.aspnetcore.cryptography.keyderivation.9.0.8.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/9.0.8/microsoft.aspnetcore.identity.entityframeworkcore.9.0.8.nupkg.sha512",

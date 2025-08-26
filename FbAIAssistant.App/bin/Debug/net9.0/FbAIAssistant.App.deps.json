@@ -10,11 +10,29 @@
         "dependencies": {
           "FbAIAssistant.Domain": "1.0.0",
           "FbAIAssistant.Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "9.0.8",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "9.0.8",
           "Microsoft.AspNetCore.Identity.UI": "9.0.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.8"
         },
         "runtime": {
           "FbAIAssistant.App.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/9.0.8": {
@@ -467,6 +485,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ETJkNHgUerGKOkTGuLrkrw7udxzeM6iRjK7CL5TD+WSoJ0oxGmYq05bb0PIWS1M3omlNIb7Z1TAWk777jmmoQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/9.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HelrX+9Q55A0uGUFsW0t5RbZaOn8pCUGpGk115ByrJQS8TKkKsOzMwhZEcVnZbdMYAhuj0TzHYhzW11LblFi8A==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/9.0.8",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.9.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.8": {
       "type": "package",

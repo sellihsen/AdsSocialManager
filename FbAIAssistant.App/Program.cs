@@ -1,5 +1,8 @@
 using FbAIAssistant.App.Components;
 using FbAIAssistant.Infrastructure;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,13 +26,24 @@ builder.Services
 	.AddSignInManager()
 	.AddDefaultTokenProviders();
 
-builder.Services.AddAuthentication(options =>
+var auth = builder.Services.AddAuthentication(options =>
 {
 	options.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
 	options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
 	options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-})
-.AddIdentityCookies();
+});
+
+auth.AddIdentityCookies();
+auth.AddFacebook(FacebookDefaults.AuthenticationScheme, options =>
+{
+	options.AppId = builder.Configuration["Authentication:Facebook:AppId"] ?? string.Empty;
+	options.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"] ?? string.Empty;
+	options.AccessDeniedPath = "/login/denied";
+	options.CallbackPath = "/signin-facebook";
+	options.SaveTokens = true;
+	options.Scope.Add("public_profile");
+	options.Scope.Add("email");
+});
 
 var app = builder.Build();
 
@@ -47,6 +61,18 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseAntiforgery();
+
+app.MapGet("/login/facebook", async (HttpContext httpContext) =>
+{
+	var properties = new AuthenticationProperties { RedirectUri = "/" };
+	await httpContext.ChallengeAsync(FacebookDefaults.AuthenticationScheme, properties);
+});
+
+app.MapGet("/logout", async (SignInManager<ApplicationUser> signInManager, HttpContext httpContext) =>
+{
+	await signInManager.SignOutAsync();
+	httpContext.Response.Redirect("/");
+});
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()

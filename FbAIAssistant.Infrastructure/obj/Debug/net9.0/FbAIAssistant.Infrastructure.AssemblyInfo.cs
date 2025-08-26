@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FbAIAssistant.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a24a2fb5cd0d4ec403c6fa3f31d29ef30b158ac2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a42fd30f281a728d2dfad507a0527a59016cc144")]
 [assembly: System.Reflection.AssemblyProductAttribute("FbAIAssistant.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FbAIAssistant.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

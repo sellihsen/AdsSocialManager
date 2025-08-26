@@ -193,3 +193,16 @@
 /workspace/FbAIAssistant.App/obj/Debug/net9.0/FbAIAssistant.App.pdb
 /workspace/FbAIAssistant.App/obj/Debug/net9.0/FbAIAssistant.App.genruntimeconfig.cache
 /workspace/FbAIAssistant.App/obj/Debug/net9.0/ref/FbAIAssistant.App.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.Scripting.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.FileFormats.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.NET.WebAssembly.Webcil.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.SymbolStore.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/workspace/FbAIAssistant.App/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
